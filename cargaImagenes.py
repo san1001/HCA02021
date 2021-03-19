@@ -5,11 +5,11 @@ import numpy as np
 IRGB=cv2.imread('009.jpg')
 print(IRGB)
 print(IRGB.shape)
-#Print líneas agragadas a rama 2
+print ('líneas agregadas a rama 2')
 IGS=cv2.cvtColor(IRGB,cv2.COLOR_BGR2GRAY)
 print (IGS)
 print (IGS.shape)
-print ('Modificación en la rama main')
-print(len(IRGB))
+cv2.imwrite('009GS.jpg',IGS)
+
 
 
