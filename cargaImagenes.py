@@ -9,5 +9,7 @@ print(IRGB.shape)
 IGS=cv2.cvtColor(IRGB,cv2.COLOR_BGR2GRAY)
 print (IGS)
 print (IGS.shape)
+print ('Modificación en la rama main')
+print(len(IRGB))
 
 
